@@ -6,6 +6,7 @@ body {
   // background: $body-bg;
   font-family: Helvetica, Arial, sans-serif;
   font-size: $m-size;
+  padding: 0;
 }
 
 button {
@@ -18,4 +19,15 @@ button {
 
 .is-active {
   font-weight: bold;
+}
+
+.warning-banner {
+  background: red;
+  width: 100%;
+  margin: 0;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 600;
+  padding: 0.2rem;
 }
